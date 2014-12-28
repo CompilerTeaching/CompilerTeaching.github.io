@@ -1,23 +1,9 @@
 # Site settings
-title: My Name
-author: My Name
-# This is the author that will be used for highlighting the author in
-# publication entries.
-pubauthor: My Name
-url: "http://www.cl.cam.ac.uk" 
-baseurl: /~crsid123
+title: Compiler Teaching Resources
+author: David Chisnall
+url: "http://compilerteaching.github.io" 
 createdyear: 2014
-destination: public_html
-collections:
-  projects:
-    output: false
 # Build settings
 markdown: kramdown
 kramdown: 
   toc_levels: "2,3" 
-scholar:
-  bibliography_template: bib
-  style: ./_bibliography/cl-pubs
-  bibliography: publications.bib
-  sort_by: year
-  order: descending

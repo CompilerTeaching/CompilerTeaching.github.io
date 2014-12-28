@@ -1,17 +1,5 @@
 ---
-layout: userpage
-photoinfo: alt text for the photo here
+layout: default
 ---
 
-###Research Interests
 
- * Some interesting stuff
- * Some exciting stuff
-
-### Teaching responsibilities
-
- * Knowledge to the brains of humans
-
-### Other interests
-
- * Running up and down stairs

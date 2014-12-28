@@ -1,6 +1,7 @@
 ---
 title: News
 layout: default
+published: false
 ---
 
 {% for post in site.posts %}

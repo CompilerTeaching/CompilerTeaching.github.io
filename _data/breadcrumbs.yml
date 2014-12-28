@@ -1,2 +1,4 @@
 - name: "People"
-  url: "/people"
+  url: "http://www.cl.cam.ac.uk/people"
+- name: "David Chisnall"
+  url: "http://www.cl.cam.ac.uk/~dc552/"

@@ -1,7 +1,7 @@
 # Site settings
 title: Compiler Teaching Resources
 author: David Chisnall
-url: "http://compilerteaching.github.io" 
+#url: "http://compilerteaching.github.io" 
 createdyear: 2014
 # Build settings
 markdown: kramdown

@@ -1,0 +1,4 @@
+<map id="AST::GlobalRegister" name="AST::GlobalRegister">
+<area shape="rect" id="node2" href="$struct_a_s_t_1_1_register.html" title="Abstract base class for all register types in the AST. " alt="" coords="25,155,129,181"/>
+<area shape="rect" id="node3" href="$struct_a_s_t_1_1_statement.html" title="Root class for all statement AST nodes in the Cellular Automata grammar. " alt="" coords="19,80,135,107"/>
+</map>

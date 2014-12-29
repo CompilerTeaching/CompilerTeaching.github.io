@@ -1,0 +1,5 @@
+<map id="AST::ClosureDecl::interpretClosure" name="AST::ClosureDecl::interpretClosure">
+<area shape="rect" id="node2" href="$class_interpreter_1_1_context.html#ae3346d4c7b5a75bdde12f3c0bde08046" title="Push a new symbol table on top of the stack. " alt="" coords="238,5,375,46"/>
+<area shape="rect" id="node3" href="$class_interpreter_1_1_context.html#a62b0e10d349ffaec8c43ee7648226b1c" title="Set the address where the variable corresponding to a particular symbol is stored. " alt="" coords="238,70,375,111"/>
+<area shape="rect" id="node4" href="$class_interpreter_1_1_context.html#a1609e60d64c484d58b534e8c47e05b16" title="Pop the top symbol table off the stack. " alt="" coords="238,135,375,177"/>
+</map>

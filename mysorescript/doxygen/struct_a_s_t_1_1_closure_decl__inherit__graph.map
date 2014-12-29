@@ -1,0 +1,4 @@
+<map id="AST::ClosureDecl" name="AST::ClosureDecl">
+<area shape="rect" id="node2" href="$class_a_s_t_1_1_expression.html" title="Abstract superclass for expressions (statements that evaluate to something). " alt="" coords="9,155,129,181"/>
+<area shape="rect" id="node3" href="$struct_a_s_t_1_1_statement.html" title="The abstract superclass for all statements. " alt="" coords="11,80,127,107"/>
+</map>

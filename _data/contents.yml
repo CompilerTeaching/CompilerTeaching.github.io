@@ -9,6 +9,12 @@
   - title: "API documentation"
     location: "doxygen/annotated.html"
 - title: MysoreScript
-  location: mysorescript
+  location: mysorescript/
+  subheadings:
+  - title: "API documentation"
+    location: "doxygen/annotated.html"
 - title: CellAtom
-  location: cellatom
+  location: cellatom/
+  subheadings:
+  - title: "API documentation"
+    location: "doxygen/annotated.html"

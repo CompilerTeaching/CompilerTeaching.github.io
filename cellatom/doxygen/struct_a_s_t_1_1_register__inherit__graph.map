@@ -1,0 +1,6 @@
+<map id="AST::Register" name="AST::Register">
+<area shape="rect" id="node4" href="$struct_a_s_t_1_1_global_register.html" title="A reference to one of the ten global registers, whose values are only reset after updating an entire ..." alt="" coords="5,229,149,256"/>
+<area shape="rect" id="node5" href="$struct_a_s_t_1_1_local_register.html" title="A reference to one of the ten local registers, whose values are initially zero on entry into the cell..." alt="" coords="174,229,311,256"/>
+<area shape="rect" id="node6" href="$struct_a_s_t_1_1_v_register.html" title="The v register, which represents the current value in the grid. " alt="" coords="335,229,448,256"/>
+<area shape="rect" id="node2" href="$struct_a_s_t_1_1_statement.html" title="Root class for all statement AST nodes in the Cellular Automata grammar. " alt="" coords="185,80,300,107"/>
+</map>

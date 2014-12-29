@@ -5,6 +5,7 @@
   subheadings:
   - grammar
   - astbuild
+  - debugging
   - title: "API documentation"
     location: "doxygen/annotated.html"
 - title: MysoreScript

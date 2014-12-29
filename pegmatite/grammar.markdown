@@ -5,6 +5,23 @@ next_section: astbuild
 prev_section: index
 ---
 
+Pegmatite grammars are [Parsing Expression
+Grammars](https://en.wikipedia.org/wiki/Parsing_expression_grammar) (PEGs).  As
+such, they are always matched greedily and there is no ambiguity in the
+grammar: the first rule to match is always the one taken.
+
+Traditional PEGs do not support left recursion, because greedy matching of a
+left-recursive rule would simply involve it repeatedly trying to match the left
+recursive part until it ran out of stack space.
+[OMeta](https://en.wikipedia.org/wiki/OMeta) added support for left recursion,
+as part of its parsing algorithm.  Pegmatite uses a simplified form of the
+OMeta algorithm, which has worse worst-case running time, but better
+worst-case space usage.
+
+Once left recursion is encountered, including indirect left recursion, the
+parser will backtrack until it finds a conditional that has a branch that is
+not left recursive.  
+
 You can create freestanding `Rule` instances, however the recommended way of
 creating a grammar is to make each rule a field in a class.  The Calculator
 example follows this pattern, with a `CalculatorGrammar` class containing one

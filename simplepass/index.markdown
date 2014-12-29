@@ -1,6 +1,7 @@
 ---
 title: SimplePass
 layout: default
+github: CompilerTeaching/SimplePass
 ---
 
 This is a trivial LLVM pass, which can be extended to analyse or transform LLVM

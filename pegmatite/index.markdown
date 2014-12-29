@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Pegmatite
+github: CompilerTeaching/Pegmatite
 ---
 
 Pegmatite design overview

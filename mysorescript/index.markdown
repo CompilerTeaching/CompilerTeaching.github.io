@@ -1,6 +1,7 @@
 ---
 title: MysoreScript
 layout: default
+github: CompilerTeaching/MysoreScript
 ---
 
 MysoreScript is a simple language designed to demonstrate the important aspects

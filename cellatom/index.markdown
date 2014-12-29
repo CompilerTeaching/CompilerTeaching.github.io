@@ -1,6 +1,7 @@
 ---
 title: CellAtom
 layout: default
+github: CompilerTeaching/CellularAutomata
 ---
 
 CellAtom is a language for implementing cellular automata language. It is a

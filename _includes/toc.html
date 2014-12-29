@@ -36,7 +36,7 @@
       {% if section.location contains 'http' %}
         {% assign url = section.location %}
       {% else %}
-        {% capture url %}{{ site.url }}/{{ section.location }}{% endcapture %}
+        {% capture url %}{{ site.baseurl }}/{{ section.location }}{% endcapture %}
       {% endif %}
   <li {% if section.title == page.title %}class="active"{% endif %} >
   <div>

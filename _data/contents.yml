@@ -1,3 +1,5 @@
+- title: Building LLVM
+  location: llvm.html
 - title: SimplePass
   location: simplepass/
 - title: Pegmatite

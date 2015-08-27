@@ -16,6 +16,7 @@
               <img alt="octoface" src="{{site.baseurl}}/images/octoface.svg" height="20px" style="display:inline;vertical-align: middle;" />
               View on GitHub
             </a>
+            {% if page.github contains '/' %}
             <a class="button" href="https://github.com/{{ page.github }}/zipball/master">
               <img alt="zip" src="{{site.baseurl}}/images/file-zip.svg" height="20px" style="display:inline;vertical-align: middle;" />
               Download .zip
@@ -24,6 +25,7 @@
               <img alt="zip" src="{{site.baseurl}}/images/file-zip.svg" height="20px" style="display:inline;vertical-align: middle;" />
               Download .tar.gz
             </a>
+            {% endif %}
           </div>
         </div>
         {% endunless %}

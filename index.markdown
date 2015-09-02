@@ -1,5 +1,6 @@
 ---
 layout: default
+github: CompilerTeaching
 ---
 
 This site contains a small collection of teaching resources, created for [L25: Modern Compiler Design](http://www.cl.cam.ac.uk/teaching/current/L25/).

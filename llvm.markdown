@@ -25,7 +25,7 @@ On Debian and Fedora systems, the Ninja package is called `ninja-build`, on most
 Get the code
 ------------
 
-You probably want to get both LLVM and clang (the [Objective-]{C,C++} front end), as the [SimplePass](SimplePass) example expects that you have clang installed to generate IR to feed to your pass.
+You probably want to get both LLVM and clang (the [Objective-]{C,C++} front end), as the [SimplePass](SimplePass) example expects that you have clang installed to generate IR to feed to your pass, and the [CellAtom](cellatom) example uses it to compile the runtime to bitcode.
 
 To get both, run the following commands somewhere with a reasonable amount of space (a debug build of LLVM will require around 12GB of disk space):
 

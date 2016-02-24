@@ -1,5 +1,8 @@
 ---
 ---
+{% assign doi = null %}
+{% assign url = null %}
+{% assign pdf = null %}
 {% if entry.doi %}
   {% if entry.doi contains '://' %}
     {% assign doi = entry.doi %}
@@ -15,10 +18,14 @@
   {% assign url = doi %}
 {% endif %}
 {% if url %}
-  {{ reference | replace: entry.title, "<a class='bibtitle' href='%%URL_PLACEHOLDER%%'>\0</a>" | replace: '%%URL_PLACEHOLDER%%', url | replace: site.pubauthor, "<span class='bibauthor'>\0</span>" }}
+{% capture cite %}{{ reference | replace: entry.title, "<a class='bibtitle' href='%%URL_PLACEHOLDER%%'>\0</a>" | replace: '%%URL_PLACEHOLDER%%', url }}{% endcapture %}
 {% else %}
-  {{ reference | replace: entry.title, "<span class='bibtitle'>\0</span>" | replace: site.pubauthor, "<span class='bibauthor'>\0</span>" }}
+{% capture cite %}{{ reference | replace: entry.title, "<span class='bibtitle'>\0</span>" }}{% endcapture %}
 {% endif %}
+{% for author in site.pubauthor %}
+{%capture cite %}{{ cite | replace: author, "<span class='bibauthor'>\0</span>" }}{% endcapture %}
+{% endfor %}
+{{ cite }}
 {% if entry.pdf %}
   {% assign pdf = entry.pdf %}
 {% elsif entry.url %}
@@ -31,20 +38,20 @@
 <a class="biblink" href="javascript:unhide('abstract-{{ key }}')">[abstract]</a>
 {% endif %}
 {% if pdf %}
-<a class="biblink" href="{{ pdf }}">[<sc>pdf</sc>]</a>
+<a class="biblink" href="{{ pdf }}">[<span style="font-variant: small-caps">pdf</span>]</a>
 {% endif %}
 {% if entry.slides %}
-<a class="biblink" href="{{ entry.slides }}">[<sc>slides</sc>]</a>
+<a class="biblink" href="{{ entry.slides }}">[<span style="font-variant: small-caps">slides</span>]</a>
 {% endif %}
 {% if entry.poster %}
-<a class="biblink" href="{{ entry.poster }}">[<sc>poster</sc>]</a>
+<a class="biblink" href="{{ entry.poster }}">[<span style="font-variant: small-caps">poster</span>]</a>
 {% endif %}
 {% if doi %}
-<a class="biblink" href="{{ doi }}">[<sc>doi</sc>]</a>
+<a class="biblink" href="{{ doi }}">[<span style="font-variant: small-caps">doi</span>]</a>
 {% endif %}
-<pre id="bibtex-{{ key }}" class="hidden">{{ entry.bibtex %}}</pre>
+<pre id="bibtex-{{ key }}" class="hidden">{{ entry.bibtex }}</pre>
 {% if entry.abstract %}
 <div class="abstract">
-<p id="abstract-{{ key }}" class="hidden">{{ entry.abstract | newline_to_br %}}</p>
+<p id="abstract-{{ key }}" class="hidden">{{ entry.abstract | newline_to_br }}</p>
 </div>
 {% endif %}

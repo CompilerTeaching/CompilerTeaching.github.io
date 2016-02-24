@@ -5,18 +5,26 @@
     </div>
   </li>
   {% if site.data.contents == undefined %}
+    {% comment %}
+     The following lines work around the fact that, in recent versions of
+     Jekyll, section.dir does not end with a /, but page.dir does.
+    {% endcomment %}
+    {% capture pagedirarray %}{{ page.dir | split: "/"}}{% endcapture %}
+    {% capture pagedir %}{% for path in pagedirarray %}{% if path != "" %}/{{path}}{% endif %}{% endfor %}{% endcapture %}
     {% for section in site.pages %}
-      {% if section.dir == '/' or section.name contains 'index.' %}
+      {% capture sectiondirarray %}{{ section.dir | split: "/"}}{% endcapture %}
+      {% capture sectiondir %}{% for path in sectiondirarray %}{% if path != "" %}/{{path}}{% endif %}{% endfor %}{% endcapture %}
+      {% if section.dir == '/' or section.path contains 'index.' %}
         {% if section.title %}
   <li {% if section.title == page.title %}class="active"{% endif %} >
   <div>
     <a href="{{ site.baseurl }}{{ section.url }}">{{ section.title }}</a>
   </div>
-          {% if section.dir != '/' and section.dir == page.dir %}
+          {% if section.dir != '/' and sectiondir == pagedir %}
     <ul>
             {% for subsection in site.pages %}
               {% unless subsection.name contains 'index.' %} 
-                {% if subsection.dir == page.dir %}
+                {% if subsection.dir == pagedir %}
       <li {% if subsection.title == page.title %}class="active"{% endif %} >
         <div>
           <a href="{{ site.baseurl }}{{ subsection.url }}">{{ subsection.title }}</a>

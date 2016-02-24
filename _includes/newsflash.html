@@ -1,0 +1,12 @@
+{% if include.limit %}
+  {% assign limit = include.limit %}
+{% else %}
+  {% assign limit = 3 %}
+{% endif %}
+{% for post in site.posts limit: limit %}
+<div class="newsflash">
+	<p>
+	Newsflash - {{ post.date | date: "%Y-%m-%d" }}: <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+	</p>
+</div>
+{% endfor %}

@@ -93,3 +93,7 @@ a:link {
 div.github-links {
 	float: right;
 }
+
+div.abstract p.unhidden {
+	padding: 1em;
+}

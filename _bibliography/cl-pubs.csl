@@ -137,7 +137,6 @@
             <text macro="year"/>
             <text variable="page"/>
           </group>
-          <text variable="URL" prefix=" "/>
         </else>
       </choose>
     </layout>

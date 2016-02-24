@@ -7,7 +7,7 @@ github: CompilerTeaching/CellularAutomata
 CellAtom is a language for implementing cellular automata language. It is a
 simple example language that has a similar abstract machine model to OpenCL.
 It was originally created for a FOSDEM talk and is used as part of the [Modern
-Compiler Design](http://www.cl.cam.ac.uk/teaching/1314/L25/) course at the
+Compiler Design](//www.cl.cam.ac.uk/teaching/1314/L25/) course at the
 University of Cambridge.
 
 This language is used for teaching, providing a simple (sequential)

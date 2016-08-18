@@ -35,11 +35,11 @@ To get both, run the following commands somewhere with a reasonable amount of sp
 	$ cd ..
 
 You will now be in the `llvm` directory, with clang checked out into `llvm/tools/clang`.
-Most of the examples will assume that you are using the 3.7 release, so check out that branch from both:
+Most of the examples will assume that you are using the 3.9 release, so check out that branch from both:
 
-	$ git checkout --track origin/release_37
+	$ git checkout --track origin/release_39
 	$ cd tools/clang
-	$ git checkout --track origin/release_37
+	$ git checkout --track origin/release_39
 
 Building
 --------

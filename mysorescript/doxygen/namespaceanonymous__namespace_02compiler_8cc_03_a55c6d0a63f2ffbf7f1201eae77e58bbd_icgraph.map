@@ -1,0 +1,16 @@
+<map id="anonymous_namespace{compiler::cc}::getAsSmallInt" name="anonymous_namespace{compiler::cc}::getAsSmallInt">
+<area shape="rect" id="node2" href="$struct_a_s_t_1_1_if_statement.html#a066cee5e2b12d85c5a8a5221df90e7fb" title="Compile the if statement. " alt="" coords="262,48,439,75"/>
+<area shape="rect" id="node3" href="$class_a_s_t_1_1_while_loop.html#ae0cbb5af08c6d5deed9cf44186bb8305" title="Compile the loop. " alt="" coords="265,99,437,125"/>
+<area shape="rect" id="node4" href="$namespaceanonymous__namespace_02compiler_8cc_03.html#afd93edfe46b869258c6875f5b3263595" title="Helper function that inserts all of the code required for comparison operations. " alt="" coords="245,150,456,191"/>
+<area shape="rect" id="node11" href="$namespaceanonymous__namespace_02compiler_8cc_03.html#af2cc3ea0cca132ce31dc49632aea826b" title="Helper function that inserts all of the code required for small integer operations, either calling the relevant method or doing the arithmetic. " alt="" coords="245,353,456,394"/>
+<area shape="rect" id="node5" href="$struct_a_s_t_1_1_cmp_ne.html#ad76bf88d753e4f9461e23a75e555fc0d" title="Compile this binary operation with the two sides already already compiled. " alt="" coords="507,5,698,32"/>
+<area shape="rect" id="node6" href="$struct_a_s_t_1_1_cmp_eq.html#a0b08206df628e4cff58f91d0a8bef812" title="Compile this binary operation with the two sides already already compiled. " alt="" coords="507,56,698,83"/>
+<area shape="rect" id="node7" href="$struct_a_s_t_1_1_cmp_gt.html#a424fc6ea8e8d55571a7e50bc819ed348" title="Compile this binary operation with the two sides already already compiled. " alt="" coords="509,107,697,133"/>
+<area shape="rect" id="node8" href="$struct_a_s_t_1_1_cmp_lt.html#aedd08ae9f45a34d0596534545ae0ea64" title="Compile this binary operation with the two sides already already compiled. " alt="" coords="510,157,695,184"/>
+<area shape="rect" id="node9" href="$struct_a_s_t_1_1_cmp_g_e.html#a6b0943f1a0c0c3c3801a3e753411a118" title="Compile this binary operation with the two sides already already compiled. " alt="" coords="506,208,699,235"/>
+<area shape="rect" id="node10" href="$struct_a_s_t_1_1_cmp_l_e.html#ae5f4dae6cd86bbee943d8344cb09edb2" title="Compile this binary operation with the two sides already already compiled. " alt="" coords="507,259,698,285"/>
+<area shape="rect" id="node12" href="$struct_a_s_t_1_1_subtract.html#a8a4922d5e0d749de22177aaef620dfd7" title="Compile the subtract expression. " alt="" coords="505,309,701,336"/>
+<area shape="rect" id="node13" href="$struct_a_s_t_1_1_add.html#a04743eaa5aea2198c280c7b348516b7b" title="Compile the add expression. " alt="" coords="518,360,687,387"/>
+<area shape="rect" id="node14" href="$struct_a_s_t_1_1_multiply.html#a6c302eca0525d2690bf2f9c41c7e17a4" title="Compile the multiply expression. " alt="" coords="507,411,698,437"/>
+<area shape="rect" id="node15" href="$struct_a_s_t_1_1_divide.html#ab36d79be699343577674a90e8b894ee3" title="Compile the divide expression. " alt="" coords="511,461,694,488"/>
+</map>

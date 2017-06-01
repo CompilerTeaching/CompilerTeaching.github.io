@@ -1,4 +1,9 @@
 <map id="AST::ClosureDecl::compileExpression" name="AST::ClosureDecl::compileExpression">
-<area shape="rect" id="node2" href="$class_compiler_1_1_context.html#a1fa8ba00bace2d0d087f2a94f450a689" title="Get the type of a closure invoke function, for a closure with the specified number of instance variab..." alt="" coords="235,5,371,46"/>
-<area shape="rect" id="node3" href="$class_compiler_1_1_context.html#ac95a411f7b1c8b1cbbd248809951bf9b" title="Returns the address of the specified symbol. " alt="" coords="235,70,371,111"/>
+<area shape="rect" id="node2" href="$class_compiler_1_1_context.html#a1fa8ba00bace2d0d087f2a94f450a689" title="Get the type of a closure invoke function, for a closure with the specified number of instance variab..." alt="" coords="235,126,371,167"/>
+<area shape="rect" id="node4" href="$namespaceanonymous__namespace_02compiler_8cc_03.html#aded569aa9c36091533ece0c7ae5ea61f" title="Get the specified value as the LLVM type used for object pointers. " alt="" coords="430,5,613,46"/>
+<area shape="rect" id="node5" href="$namespaceanonymous__namespace_02compiler_8cc_03.html#a6b26f9013a4fb11ec3818233928972dd" title="Generate a small integer object from an integer constant. " alt="" coords="419,201,623,242"/>
+<area shape="rect" id="node7" href="$namespaceanonymous__namespace_02compiler_8cc_03.html#a4d988a36fbff945964aaeaea590161ff" title="Helper function that turns a pointer that is known at compile time into a constant in the code..." alt="" coords="427,275,616,317"/>
+<area shape="rect" id="node8" href="$class_compiler_1_1_context.html#ac95a411f7b1c8b1cbbd248809951bf9b" title="Returns the address of the specified symbol. " alt="" coords="235,294,371,335"/>
+<area shape="rect" id="node3" href="$class_compiler_1_1_context.html#ad45802bdba22af47c977c3ebb18fbb5f" title="Get the type of a method with the specified number of arguments, for an object with the specified num..." alt="" coords="453,70,589,111"/>
+<area shape="rect" id="node6" href="$class_compiler_1_1_context.html#a16656ae7d568d4030a5dbd154e311348" title="At the end of compilation, generate code and return a function pointer. " alt="" coords="453,135,589,177"/>
 </map>

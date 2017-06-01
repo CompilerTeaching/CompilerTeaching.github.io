@@ -1,15 +1,20 @@
 var searchData=
 [
-  ['c',['C',['../class_compiler_1_1_context.html#a866c61141e72443ad9b708626636d776',1,'Compiler::Context']]],
+  ['c',['C',['../class_compiler_1_1_context.html#a48ca8d50c8a129f6b5f6d86cc3cb63ef',1,'Compiler::Context']]],
   ['cache',['cache',['../class_a_s_t_1_1_expression.html#a31450ef555bf536b71efbe5d5ce39899',1,'AST::Expression']]],
   ['call',['call',['../struct_parser_1_1_mysore_script_grammar.html#aeaa3aee375cb47700472bccda0611fa2',1,'Parser::MysoreScriptGrammar']]],
   ['callable',['callable',['../struct_parser_1_1_mysore_script_grammar.html#af60479a8704a552d1596562f11bbc056',1,'Parser::MysoreScriptGrammar']]],
   ['callarglist',['callArgList',['../struct_parser_1_1_mysore_script_grammar.html#aa40c0d4315fb4b11c02d082c2004321f',1,'Parser::MysoreScriptGrammar']]],
   ['callee',['callee',['../struct_a_s_t_1_1_call.html#aea3e88c88d9304b58cd07481cf0f1cf9',1,'AST::Call']]],
   ['character',['character',['../struct_parser_1_1_mysore_script_grammar.html#afd3bec69c16c84c0f6cbf057e1e565ef',1,'Parser::MysoreScriptGrammar']]],
+  ['characters',['characters',['../struct_mysore_script_1_1_string.html#a95ec1f4b259050f241ca1827119d6211',1,'MysoreScript::String']]],
+  ['classname',['className',['../struct_mysore_script_1_1_class.html#a58568a7a6740c58f8f5fd4412068b8a3',1,'MysoreScript::Class']]],
   ['closure',['closure',['../struct_parser_1_1_mysore_script_grammar.html#a9d30d142097ab2ace61609fa5be7a344',1,'Parser::MysoreScriptGrammar']]],
+  ['closureclass',['ClosureClass',['../namespace_mysore_script.html#ae151eb6e33e63e84def590328d23d070',1,'MysoreScript']]],
+  ['closuretrampolines',['closureTrampolines',['../namespace_interpreter.html#add8008b1bd5820b2cf031e5567466f0d',1,'Interpreter']]],
   ['cls',['cls',['../struct_parser_1_1_mysore_script_grammar.html#a93be2f8dd6ef3bc4e15eac92c36e85ed',1,'Parser::MysoreScriptGrammar']]],
   ['cmp',['cmp',['../struct_parser_1_1_mysore_script_grammar.html#a26fbac5cf9550dc0c824fabed71dcd30',1,'Parser::MysoreScriptGrammar']]],
   ['comment',['comment',['../struct_parser_1_1_mysore_script_grammar.html#a3d9665663fe58567506d38646b160af7',1,'Parser::MysoreScriptGrammar']]],
-  ['condition',['condition',['../struct_a_s_t_1_1_if_statement.html#a2188214b0c57dbae270477cbc03d1ba2',1,'AST::IfStatement']]]
+  ['condition',['condition',['../struct_a_s_t_1_1_if_statement.html#a2188214b0c57dbae270477cbc03d1ba2',1,'AST::IfStatement']]],
+  ['currentcontext',['currentContext',['../namespaceanonymous__namespace_02interpreter_8cc_03.html#a06a670e82977ec5f044e6f4520188045',1,'anonymous_namespace{interpreter.cc}']]]
 ];

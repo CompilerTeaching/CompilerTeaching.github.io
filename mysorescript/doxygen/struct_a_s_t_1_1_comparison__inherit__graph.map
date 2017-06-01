@@ -1,11 +1,6 @@
-<map id="AST::Comparison" name="AST::Comparison">
-<area shape="rect" id="node6" href="$struct_a_s_t_1_1_cmp_eq.html" title="Equality comparison. " alt="" coords="5,379,104,405"/>
-<area shape="rect" id="node7" href="$struct_a_s_t_1_1_cmp_g_e.html" title="Greater&#45;than&#45;or&#45;equal&#45;to comparison. " alt="" coords="129,379,231,405"/>
-<area shape="rect" id="node8" href="$struct_a_s_t_1_1_cmp_gt.html" title="Greater&#45;than comparison. " alt="" coords="255,379,352,405"/>
-<area shape="rect" id="node9" href="$struct_a_s_t_1_1_cmp_l_e.html" title="Less&#45;than&#45;or&#45;equal&#45;to comparison. " alt="" coords="377,379,476,405"/>
-<area shape="rect" id="node10" href="$struct_a_s_t_1_1_cmp_lt.html" title="Less&#45;than comparison. " alt="" coords="501,379,595,405"/>
-<area shape="rect" id="node11" href="$struct_a_s_t_1_1_cmp_ne.html" title="Non&#45;equality comparison. " alt="" coords="619,379,719,405"/>
-<area shape="rect" id="node2" href="$struct_a_s_t_1_1_bin_op.html" title="Abstract superclass for binary operators. " alt="" coords="319,229,411,256"/>
-<area shape="rect" id="node3" href="$class_a_s_t_1_1_expression.html" title="Abstract superclass for expressions (statements that evaluate to something). " alt="" coords="305,155,425,181"/>
-<area shape="rect" id="node4" href="$struct_a_s_t_1_1_statement.html" title="The abstract superclass for all statements. " alt="" coords="307,80,423,107"/>
+<map id="AST::Comparison&lt; T &gt;" name="AST::Comparison&lt; T &gt;">
+<area shape="rect" id="node2" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; T \&gt;" alt="" coords="22,304,145,331"/>
+<area shape="rect" id="node3" href="$struct_a_s_t_1_1_bin_op_base.html" title="Abstract superclass for binary operators. " alt="" coords="23,229,145,256"/>
+<area shape="rect" id="node4" href="$class_a_s_t_1_1_expression.html" title="Abstract superclass for expressions (statements that evaluate to something). " alt="" coords="23,155,144,181"/>
+<area shape="rect" id="node5" href="$struct_a_s_t_1_1_statement.html" title="The abstract superclass for all statements. " alt="" coords="26,80,141,107"/>
 </map>

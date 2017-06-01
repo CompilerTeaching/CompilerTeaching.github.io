@@ -1,0 +1,5 @@
+<map id="anonymous_namespace{runtime::cc}::StringAdd" name="anonymous_namespace{runtime::cc}::StringAdd">
+<area shape="rect" id="node2" href="$namespace_mysore_script.html#afac02d2775781cd5a21f05e8f5c44a66" title="Is this object a small integer (lowest bit is 1, next two bits are 0). " alt="" coords="449,5,607,32"/>
+<area shape="rect" id="node3" href="$namespace_mysore_script.html#a2ba8d92706e1e60f84777e35edca77f0" title="Assuming that o is a small integer (an integer embedded in a pointer), return it as a C integer..." alt="" coords="227,31,394,57"/>
+<area shape="rect" id="node4" href="$namespace_mysore_script.html#a5d99df29674a3b4cb9048896e9e74c51" title="Construct a small integer object from the given integer. " alt="" coords="222,82,399,123"/>
+</map>

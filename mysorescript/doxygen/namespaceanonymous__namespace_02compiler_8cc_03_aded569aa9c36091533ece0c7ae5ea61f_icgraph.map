@@ -1,0 +1,13 @@
+<map id="anonymous_namespace{compiler::cc}::getAsObject" name="anonymous_namespace{compiler::cc}::getAsObject">
+<area shape="rect" id="node2" href="$class_compiler_1_1_context.html#a1fa8ba00bace2d0d087f2a94f450a689" title="Get the type of a closure invoke function, for a closure with the specified number of instance variab..." alt="" coords="275,73,411,114"/>
+<area shape="rect" id="node3" href="$struct_a_s_t_1_1_closure_decl.html#ac89b8990d59407527f2016ea9340c03b" title="Compile the closure declaration. " alt="" coords="504,11,685,53"/>
+<area shape="rect" id="node4" href="$struct_a_s_t_1_1_call.html#a43d92be23a65294ed9235fd13f32a445" title="Generate code to call the relevant object. " alt="" coords="496,119,693,145"/>
+<area shape="rect" id="node5" href="$struct_a_s_t_1_1_return.html#a3cfdd555340c6ccf64f958284545734b" title="Compile the return statement. " alt="" coords="268,189,417,216"/>
+<area shape="rect" id="node6" href="$struct_a_s_t_1_1_decl.html#a3c97784c0387b043c4d8042b28a28859" title="Compiles the initialiser, if one exists. " alt="" coords="275,240,411,267"/>
+<area shape="rect" id="node7" href="$struct_a_s_t_1_1_assignment.html#ad26e19d08bbddb7bb385aa8b66467157" title="Compile the assignment, looking up the address of the target and storing the result of compiling the ..." alt="" coords="253,291,432,317"/>
+<area shape="rect" id="node8" href="$namespaceanonymous__namespace_02compiler_8cc_03.html#af2cc3ea0cca132ce31dc49632aea826b" title="Helper function that inserts all of the code required for small integer operations, either calling the relevant method or doing the arithmetic. " alt="" coords="237,342,448,383"/>
+<area shape="rect" id="node9" href="$struct_a_s_t_1_1_subtract.html#a8a4922d5e0d749de22177aaef620dfd7" title="Compile the subtract expression. " alt="" coords="497,273,693,300"/>
+<area shape="rect" id="node10" href="$struct_a_s_t_1_1_add.html#a04743eaa5aea2198c280c7b348516b7b" title="Compile the add expression. " alt="" coords="510,324,679,351"/>
+<area shape="rect" id="node11" href="$struct_a_s_t_1_1_multiply.html#a6c302eca0525d2690bf2f9c41c7e17a4" title="Compile the multiply expression. " alt="" coords="499,375,690,401"/>
+<area shape="rect" id="node12" href="$struct_a_s_t_1_1_divide.html#ab36d79be699343577674a90e8b894ee3" title="Compile the divide expression. " alt="" coords="503,425,686,452"/>
+</map>

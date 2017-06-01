@@ -1,4 +1,5 @@
 <map id="AST::ClosureDecl::evaluateExpr" name="AST::ClosureDecl::evaluateExpr">
-<area shape="rect" id="node2" href="$class_interpreter_1_1_context.html#a62b0e10d349ffaec8c43ee7648226b1c" title="Set the address where the variable corresponding to a particular symbol is stored. " alt="" coords="267,5,405,46"/>
-<area shape="rect" id="node3" href="$class_interpreter_1_1_context.html#a311a973fddecebbf09529289489ed934" title="Look up a symbol, walking up the symbol table stack until it&#39;s found. " alt="" coords="267,70,405,111"/>
+<area shape="rect" id="node2" href="$namespace_mysore_script.html#a5d99df29674a3b4cb9048896e9e74c51" title="Construct a small integer object from the given integer. " alt="" coords="267,5,445,46"/>
+<area shape="rect" id="node3" href="$class_interpreter_1_1_context.html#a62b0e10d349ffaec8c43ee7648226b1c" title="Set the address where the variable corresponding to a particular symbol is stored. " alt="" coords="287,70,425,111"/>
+<area shape="rect" id="node4" href="$class_interpreter_1_1_context.html#a311a973fddecebbf09529289489ed934" title="Look up a symbol, walking up the symbol table stack until it&#39;s found. " alt="" coords="287,135,425,177"/>
 </map>

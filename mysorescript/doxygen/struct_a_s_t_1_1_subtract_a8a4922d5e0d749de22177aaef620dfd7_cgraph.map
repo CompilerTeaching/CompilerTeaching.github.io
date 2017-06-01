@@ -1,0 +1,6 @@
+<map id="AST::Subtract::compileBinOp" name="AST::Subtract::compileBinOp">
+<area shape="rect" id="node2" href="$namespaceanonymous__namespace_02compiler_8cc_03.html#af2cc3ea0cca132ce31dc49632aea826b" title="Helper function that inserts all of the code required for small integer operations, either calling the relevant method or doing the arithmetic. " alt="" coords="251,70,461,111"/>
+<area shape="rect" id="node3" href="$namespaceanonymous__namespace_02compiler_8cc_03.html#a55c6d0a63f2ffbf7f1201eae77e58bbd" title="Get the specified value as the LLVM type used for small integer objects. " alt="" coords="516,5,708,46"/>
+<area shape="rect" id="node4" href="$namespaceanonymous__namespace_02compiler_8cc_03.html#aded569aa9c36091533ece0c7ae5ea61f" title="Get the specified value as the LLVM type used for object pointers. " alt="" coords="521,70,703,111"/>
+<area shape="rect" id="node5" href="$namespaceanonymous__namespace_02compiler_8cc_03.html#a6b26f9013a4fb11ec3818233928972dd" title="Generate a small integer object from an integer constant. " alt="" coords="510,135,714,177"/>
+</map>

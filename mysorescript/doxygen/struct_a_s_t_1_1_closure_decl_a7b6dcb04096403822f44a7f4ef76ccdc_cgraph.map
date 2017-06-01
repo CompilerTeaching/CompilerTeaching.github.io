@@ -1,5 +1,8 @@
 <map id="AST::ClosureDecl::interpretMethod" name="AST::ClosureDecl::interpretMethod">
-<area shape="rect" id="node2" href="$class_interpreter_1_1_context.html#ae3346d4c7b5a75bdde12f3c0bde08046" title="Push a new symbol table on top of the stack. " alt="" coords="238,5,375,46"/>
-<area shape="rect" id="node3" href="$class_interpreter_1_1_context.html#a62b0e10d349ffaec8c43ee7648226b1c" title="Set the address where the variable corresponding to a particular symbol is stored. " alt="" coords="238,70,375,111"/>
-<area shape="rect" id="node4" href="$class_interpreter_1_1_context.html#a1609e60d64c484d58b534e8c47e05b16" title="Pop the top symbol table off the stack. " alt="" coords="238,135,375,177"/>
+<area shape="rect" id="node2" href="$namespace_mysore_script.html#afac02d2775781cd5a21f05e8f5c44a66" title="Is this object a small integer (lowest bit is 1, next two bits are 0). " alt="" coords="250,5,409,32"/>
+<area shape="rect" id="node3" href="$namespace_mysore_script.html#adbfbcd938b86ecddab417a5b14819775" title="Calls a compiled method, constructing the correct argument frame based on the arguments. " alt="" coords="237,57,421,98"/>
+<area shape="rect" id="node4" href="$class_interpreter_1_1_context.html#ae3346d4c7b5a75bdde12f3c0bde08046" title="Push a new symbol table on top of the stack. " alt="" coords="261,122,398,163"/>
+<area shape="rect" id="node5" href="$class_interpreter_1_1_context.html#a62b0e10d349ffaec8c43ee7648226b1c" title="Set the address where the variable corresponding to a particular symbol is stored. " alt="" coords="261,187,398,229"/>
+<area shape="rect" id="node6" href="$namespace_mysore_script.html#a5d99df29674a3b4cb9048896e9e74c51" title="Construct a small integer object from the given integer. " alt="" coords="241,253,418,294"/>
+<area shape="rect" id="node7" href="$class_interpreter_1_1_context.html#a1609e60d64c484d58b534e8c47e05b16" title="Pop the top symbol table off the stack. " alt="" coords="261,318,398,359"/>
 </map>

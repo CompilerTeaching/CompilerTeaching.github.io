@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['value',['Value',['../class_interpreter_1_1_value.html#ad291ed208679ccef7f29babe05fad412',1,'Interpreter::Value::Value()'],['../class_interpreter_1_1_value.html#a9037262f1a813812cb98b40937fd1f19',1,'Interpreter::Value::Value(Obj o)'],['../class_interpreter_1_1_value.html#a0bbfc62e5950c77ff74a78f4109b415b',1,'Interpreter::Value::Value(Value &amp;o)'],['../class_interpreter_1_1_value.html#a7c98ddef85ef5b503b137e3d329746c7',1,'Interpreter::Value::Value(Value &amp;&amp;o)']]]
+  ['operator_20obj',['operator Obj',['../class_interpreter_1_1_value.html#a91e1d6f43c5f3519ae4fbcfa69e17ddc',1,'Interpreter::Value']]],
+  ['operator_3d',['operator=',['../class_interpreter_1_1_value.html#a173495c2f3d0145c40e856c4d8d9180b',1,'Interpreter::Value::operator=(Obj o)'],['../class_interpreter_1_1_value.html#ae26046042eb96f735c57e4016c77359b',1,'Interpreter::Value::operator=(Value &amp;o)']]]
 ];

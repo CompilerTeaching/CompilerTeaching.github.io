@@ -1,21 +1,39 @@
 <map id="AST::Expression" name="AST::Expression">
-<area shape="rect" id="node4" href="$struct_a_s_t_1_1_bin_op.html" title="Abstract superclass for binary operators. " alt="" coords="514,183,606,209"/>
-<area shape="rect" id="node16" href="$struct_a_s_t_1_1_call.html" title="A call expression. " alt="" coords="521,233,599,260"/>
-<area shape="rect" id="node17" href="$struct_a_s_t_1_1_closure_decl.html" title="A closure declaration. " alt="" coords="496,284,624,311"/>
-<area shape="rect" id="node18" href="$class_a_s_t_1_1_new_expr.html" title="A new expression, which constructs a new instance of a class. " alt="" coords="505,335,615,361"/>
-<area shape="rect" id="node19" href="$struct_a_s_t_1_1_number.html" title="A number literal. " alt="" coords="509,385,611,412"/>
-<area shape="rect" id="node20" href="$struct_a_s_t_1_1_string_literal.html" title="A string literal. " alt="" coords="497,436,623,463"/>
-<area shape="rect" id="node21" href="$struct_a_s_t_1_1_var_ref.html" title="Reference to a variable. " alt="" coords="511,487,609,513"/>
-<area shape="rect" id="node2" href="$struct_a_s_t_1_1_statement.html" title="The abstract superclass for all statements. " alt="" coords="161,335,277,361"/>
-<area shape="rect" id="node5" href="$struct_a_s_t_1_1_add.html" title="Add expression. " alt="" coords="697,81,775,108"/>
-<area shape="rect" id="node6" href="$struct_a_s_t_1_1_comparison.html" title="Superclass for comparison operations. " alt="" coords="673,132,799,159"/>
-<area shape="rect" id="node13" href="$struct_a_s_t_1_1_divide.html" title="Divide operation. " alt="" coords="690,183,782,209"/>
-<area shape="rect" id="node14" href="$struct_a_s_t_1_1_multiply.html" title="Multiply operation. " alt="" coords="686,233,786,260"/>
-<area shape="rect" id="node15" href="$struct_a_s_t_1_1_subtract.html" title="Subtract expression. " alt="" coords="683,284,789,311"/>
-<area shape="rect" id="node7" href="$struct_a_s_t_1_1_cmp_eq.html" title="Equality comparison. " alt="" coords="850,5,950,32"/>
-<area shape="rect" id="node8" href="$struct_a_s_t_1_1_cmp_g_e.html" title="Greater&#45;than&#45;or&#45;equal&#45;to comparison. " alt="" coords="849,56,951,83"/>
-<area shape="rect" id="node9" href="$struct_a_s_t_1_1_cmp_gt.html" title="Greater&#45;than comparison. " alt="" coords="851,107,949,133"/>
-<area shape="rect" id="node10" href="$struct_a_s_t_1_1_cmp_l_e.html" title="Less&#45;than&#45;or&#45;equal&#45;to comparison. " alt="" coords="850,157,950,184"/>
-<area shape="rect" id="node11" href="$struct_a_s_t_1_1_cmp_lt.html" title="Less&#45;than comparison. " alt="" coords="853,208,947,235"/>
-<area shape="rect" id="node12" href="$struct_a_s_t_1_1_cmp_ne.html" title="Non&#45;equality comparison. " alt="" coords="850,259,950,285"/>
+<area shape="rect" id="node4" href="$struct_a_s_t_1_1_bin_op_base.html" title="Abstract superclass for binary operators. " alt="" coords="499,359,621,385"/>
+<area shape="rect" id="node34" href="$struct_a_s_t_1_1_call.html" title="A call expression. " alt="" coords="521,409,599,436"/>
+<area shape="rect" id="node35" href="$struct_a_s_t_1_1_closure_decl.html" title="A closure declaration. " alt="" coords="496,460,624,487"/>
+<area shape="rect" id="node36" href="$class_a_s_t_1_1_new_expr.html" title="A new expression, which constructs a new instance of a class. " alt="" coords="505,511,615,537"/>
+<area shape="rect" id="node37" href="$struct_a_s_t_1_1_number.html" title="A number literal. " alt="" coords="509,561,611,588"/>
+<area shape="rect" id="node38" href="$struct_a_s_t_1_1_string_literal.html" title="A string literal. " alt="" coords="497,612,623,639"/>
+<area shape="rect" id="node39" href="$struct_a_s_t_1_1_var_ref.html" title="Reference to a variable. " alt="" coords="511,663,609,689"/>
+<area shape="rect" id="node2" href="$struct_a_s_t_1_1_statement.html" title="The abstract superclass for all statements. " alt="" coords="161,511,277,537"/>
+<area shape="rect" id="node5" href="$struct_a_s_t_1_1_bin_op.html" title="Template superclass for binary operators. " alt="" coords="697,5,831,32"/>
+<area shape="rect" id="node6" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; std::divides\l\&lt; intptr_t \&gt; \&gt;" alt="" coords="679,57,849,98"/>
+<area shape="rect" id="node8" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; std::equal\l_to\&lt; intptr_t \&gt; \&gt;" alt="" coords="683,122,845,163"/>
+<area shape="rect" id="node11" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; std::greater\l\&lt; intptr_t \&gt; \&gt;" alt="" coords="679,187,849,229"/>
+<area shape="rect" id="node14" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; std::greater\l_equal\&lt; intptr_t \&gt; \&gt;" alt="" coords="679,253,849,294"/>
+<area shape="rect" id="node17" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; std::less\l\&lt; intptr_t \&gt; \&gt;" alt="" coords="687,318,841,359"/>
+<area shape="rect" id="node20" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; std::less\l_equal\&lt; intptr_t \&gt; \&gt;" alt="" coords="687,383,841,425"/>
+<area shape="rect" id="node23" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; std::minus\l\&lt; intptr_t \&gt; \&gt;" alt="" coords="682,449,846,490"/>
+<area shape="rect" id="node25" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; std::multiplies\l\&lt; intptr_t \&gt; \&gt;" alt="" coords="672,514,856,555"/>
+<area shape="rect" id="node27" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; std::not\l_equal_to\&lt; intptr_t \&gt; \&gt;" alt="" coords="686,579,842,621"/>
+<area shape="rect" id="node30" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; std::plus\l\&lt; intptr_t \&gt; \&gt;" alt="" coords="687,645,841,686"/>
+<area shape="rect" id="node32" href="$struct_a_s_t_1_1_bin_op.html" title="AST::BinOp\&lt; T \&gt;" alt="" coords="702,711,826,737"/>
+<area shape="rect" id="node7" href="$struct_a_s_t_1_1_divide.html" title="Divide operation. " alt="" coords="951,64,1043,91"/>
+<area shape="rect" id="node9" href="$struct_a_s_t_1_1_comparison.html" title="AST::Comparison\&lt; std\l::equal_to\&lt; intptr_t \&gt; \&gt;" alt="" coords="919,122,1075,163"/>
+<area shape="rect" id="node10" href="$struct_a_s_t_1_1_cmp_eq.html" title="Equality comparison. " alt="" coords="1141,129,1241,156"/>
+<area shape="rect" id="node12" href="$struct_a_s_t_1_1_comparison.html" title="AST::Comparison\&lt; std\l::greater\&lt; intptr_t \&gt; \&gt;" alt="" coords="919,187,1075,229"/>
+<area shape="rect" id="node13" href="$struct_a_s_t_1_1_cmp_gt.html" title="Greater&#45;than comparison. " alt="" coords="1142,195,1239,221"/>
+<area shape="rect" id="node15" href="$struct_a_s_t_1_1_comparison.html" title="AST::Comparison\&lt; std\l::greater_equal\&lt; intptr_t \&gt; \&gt;" alt="" coords="904,253,1091,294"/>
+<area shape="rect" id="node16" href="$struct_a_s_t_1_1_cmp_g_e.html" title="Greater&#45;than&#45;or&#45;equal&#45;to comparison. " alt="" coords="1139,260,1242,287"/>
+<area shape="rect" id="node18" href="$struct_a_s_t_1_1_comparison.html" title="AST::Comparison\&lt; std\l::less\&lt; intptr_t \&gt; \&gt;" alt="" coords="919,318,1075,359"/>
+<area shape="rect" id="node19" href="$struct_a_s_t_1_1_cmp_lt.html" title="Less&#45;than comparison. " alt="" coords="1143,325,1238,352"/>
+<area shape="rect" id="node21" href="$struct_a_s_t_1_1_comparison.html" title="AST::Comparison\&lt; std\l::less_equal\&lt; intptr_t \&gt; \&gt;" alt="" coords="913,383,1081,425"/>
+<area shape="rect" id="node22" href="$struct_a_s_t_1_1_cmp_l_e.html" title="Less&#45;than&#45;or&#45;equal&#45;to comparison. " alt="" coords="1141,391,1241,417"/>
+<area shape="rect" id="node24" href="$struct_a_s_t_1_1_subtract.html" title="Subtract expression. " alt="" coords="945,456,1050,483"/>
+<area shape="rect" id="node26" href="$struct_a_s_t_1_1_multiply.html" title="Multiply operation. " alt="" coords="947,521,1047,548"/>
+<area shape="rect" id="node28" href="$struct_a_s_t_1_1_comparison.html" title="AST::Comparison\&lt; std\l::not_equal_to\&lt; intptr_t \&gt; \&gt;" alt="" coords="907,579,1088,621"/>
+<area shape="rect" id="node29" href="$struct_a_s_t_1_1_cmp_ne.html" title="Non&#45;equality comparison. " alt="" coords="1141,587,1241,613"/>
+<area shape="rect" id="node31" href="$struct_a_s_t_1_1_add.html" title="Add expression. " alt="" coords="958,652,1037,679"/>
+<area shape="rect" id="node33" href="$struct_a_s_t_1_1_comparison.html" title="Superclass for comparison operations. " alt="" coords="918,711,1077,737"/>
 </map>

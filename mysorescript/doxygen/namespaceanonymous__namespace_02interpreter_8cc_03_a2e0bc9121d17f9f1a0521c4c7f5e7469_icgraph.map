@@ -1,0 +1,4 @@
+<map id="anonymous_namespace{interpreter::cc}::needsGC" name="anonymous_namespace{interpreter::cc}::needsGC">
+<area shape="rect" id="node2" href="$class_interpreter_1_1_value.html#a302299edef992b01ffa6aeb1d8d626d5" title="Destructor, responsible for removing the reference from the GC&#39;s view. " alt="" coords="229,5,355,46"/>
+<area shape="rect" id="node3" href="$class_interpreter_1_1_value.html#a7c98ddef85ef5b503b137e3d329746c7" title="Move constructor. " alt="" coords="403,5,528,46"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="anonymous_namespace{interpreter::cc}::closureTrampoline6" name="anonymous_namespace{interpreter::cc}::closureTrampoline6">
+<area shape="rect" id="node2" href="$struct_a_s_t_1_1_closure_decl.html#aa798d2a0d215a949a82b83de530dded9" title="Interprets the closure in the current context. " alt="" coords="221,103,405,145"/>
+<area shape="rect" id="node3" href="$namespace_mysore_script.html#aebfd6603112c6bad1003f055df6cc1b4" title="Calls a compiled closure from the specified argument list. " alt="" coords="453,5,637,46"/>
+<area shape="rect" id="node4" href="$class_interpreter_1_1_context.html#ae3346d4c7b5a75bdde12f3c0bde08046" title="Push a new symbol table on top of the stack. " alt="" coords="477,70,614,111"/>
+<area shape="rect" id="node5" href="$class_interpreter_1_1_context.html#a62b0e10d349ffaec8c43ee7648226b1c" title="Set the address where the variable corresponding to a particular symbol is stored. " alt="" coords="477,135,614,177"/>
+<area shape="rect" id="node6" href="$class_interpreter_1_1_context.html#a1609e60d64c484d58b534e8c47e05b16" title="Pop the top symbol table off the stack. " alt="" coords="477,201,614,242"/>
+</map>

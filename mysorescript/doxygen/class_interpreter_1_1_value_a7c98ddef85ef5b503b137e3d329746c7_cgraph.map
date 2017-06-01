@@ -1,0 +1,4 @@
+<map id="Interpreter::Value::Value" name="Interpreter::Value::Value">
+<area shape="rect" id="node2" href="$class_interpreter_1_1_value.html#a302299edef992b01ffa6aeb1d8d626d5" title="Destructor, responsible for removing the reference from the GC&#39;s view. " alt="" coords="179,5,304,46"/>
+<area shape="rect" id="node3" href="$namespaceanonymous__namespace_02interpreter_8cc_03.html#a2e0bc9121d17f9f1a0521c4c7f5e7469" title="Indicates whether a particular object needs to be visible to the GC. " alt="" coords="352,5,528,46"/>
+</map>

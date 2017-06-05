@@ -18,6 +18,8 @@ will automatically insert itself at the end of the optimisation pipeline.
 
 To use it, run this command from the build directory:
 
-	$ clang -Xclang -load -Xclang ./SimplePass.so -c {some source file} -O1
+	$ clang -Xclang -load -Xclang ./SimplePass.so -c {some source file}
 
-The pass will not be invoked at -O0, but will at any other optimisation level.
+The pass will be invoked at any optimisation level.
+If you are modifying SimplePass then look at the `RegisterStandardPasses` declarations at the bottom of the file to see how it is registered with the pass pipeline.
+You may wish to insert your pass at a different point.

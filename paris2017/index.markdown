@@ -10,10 +10,10 @@ Here are [the exercises for the first two days of the summer school](Exercises.p
 
 You may also wish to review the slides from this section of the course:
 
- * [Modern Intermediate Representations](paris1a.pdf)
- * [LLVM IR and Transform Pipeline](paris1b.pdf)
- * [Modern Processor Architectures (A compiler writer’s perspective)](paris2a.pdf)
- * [JIT Compilation](paris2b.pdf)
+ * [Modern Intermediate Representations](Paris1a.pdf)
+ * [LLVM IR and Transform Pipeline](Paris1b.pdf)
+ * [Modern Processor Architectures (A compiler writer’s perspective)](Paris2a.pdf)
+ * [JIT Compilation](Paris2b.pdf)
 
 Resources
 ---------

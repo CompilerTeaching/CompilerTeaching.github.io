@@ -24,3 +24,5 @@
   subheadings:
   - title: "API documentation"
     location: "doxygen/annotated.html"
+- title: Paris 2017 Summer School
+  location: paris2017
